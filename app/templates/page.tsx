@@ -3,10 +3,10 @@
  * @see https://v0.dev/t/XsqnUTRxxmS
  * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
  */
-import Link from "next/link"
-import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
-import { JSX, SVGProps } from "react"
+import Link from "next/link";
+import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { JSX, SVGProps } from "react";
 
 export default function templates() {
   return (
@@ -37,7 +37,7 @@ export default function templates() {
                 <div className="text-xl font-bold">$390</div>
               </CardContent>
               <CardFooter>
-                <Button variant="destructive" className="bg-[#3b81f6] hover:bg-[#00a071]">
+                <Button className="bg-[#3b81f6] hover:bg-[#00a071] text-white">
                   Purchase
                 </Button>
               </CardFooter>
@@ -56,7 +56,7 @@ export default function templates() {
                 <div className="text-xl font-bold">$390</div>
               </CardContent>
               <CardFooter>
-                <Button variant="destructive" className="bg-[#3b81f6] hover:bg-[#00a071]">
+                <Button className="bg-[#3b81f6] hover:bg-[#00a071] text-white">
                   Purchase
                 </Button>
               </CardFooter>
@@ -75,7 +75,7 @@ export default function templates() {
                 <div className="text-xl font-bold">$390</div>
               </CardContent>
               <CardFooter>
-                <Button variant="destructive" className="bg-[#3b81f6] hover:bg-[#00a071]">
+                <Button className="bg-[#3b81f6] hover:bg-[#00a071] text-white">
                   Purchase
                 </Button>
               </CardFooter>
@@ -94,7 +94,7 @@ export default function templates() {
                 <div className="text-xl font-bold">$390</div>
               </CardContent>
               <CardFooter>
-                <Button variant="destructive" className="bg-[#3b81f6] hover:bg-[#00a071]">
+                <Button className="bg-[#3b81f6] hover:bg-[#00a071] text-white">
                   Purchase
                 </Button>
               </CardFooter>
@@ -113,7 +113,7 @@ export default function templates() {
                 <div className="text-xl font-bold">$390</div>
               </CardContent>
               <CardFooter>
-                <Button variant="destructive" className="bg-[#3b81f6] hover:bg-[#00a071]">
+                <Button className="bg-[#3b81f6] hover:bg-[#00a071] text-white">
                   Purchase
                 </Button>
               </CardFooter>
@@ -132,7 +132,7 @@ export default function templates() {
                 <div className="text-xl font-bold">$390</div>
               </CardContent>
               <CardFooter>
-                <Button variant="destructive" className="bg-[#3b81f6] hover:bg-[#00a071]">
+                <Button className="bg-[#3b81f6] hover:bg-[#00a071] text-white">
                   Purchase
                 </Button>
               </CardFooter>
@@ -141,7 +141,7 @@ export default function templates() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 function BarChartIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
@@ -162,9 +162,8 @@ function BarChartIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) 
       <line x1="18" x2="18" y1="20" y2="4" />
       <line x1="6" x2="6" y1="20" y2="16" />
     </svg>
-  )
+  );
 }
-
 
 function CogIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
@@ -195,9 +194,8 @@ function CogIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
       <path d="m17 3.34-1 1.73" />
       <path d="m11 13.73-4 6.93" />
     </svg>
-  )
+  );
 }
-
 
 function UserIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
@@ -216,6 +214,5 @@ function UserIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
       <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
       <circle cx="12" cy="7" r="4" />
     </svg>
-  )
+  );
 }
-

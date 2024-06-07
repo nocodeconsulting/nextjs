@@ -5,7 +5,7 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter }
 import { Avatar, AvatarImage } from "@/components/ui/avatar";
 import { MoonIcon, FacebookIcon, TwitterIcon, InstagramIcon, YoutubeIcon, LinkedinIcon } from "lucide-react";
 
-const home2 = () => {
+const Home2 = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-white">
       <nav className="w-full px-4 sm:px-6 lg:px-8">
@@ -19,7 +19,7 @@ const home2 = () => {
                   src="https://nocodeconsulting.blob.core.windows.net/nocodeconsulting/nocode-consulting-logo.png"
                   style={{
                     aspectRatio: "200/50",
-                    objectFit: "cover",
+                    objectFit: "contain",
                   }}
                   width={200}
                 />
@@ -93,10 +93,10 @@ const home2 = () => {
               alt="Abstract shapes"
               className="h-64 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
               height="400"
-              src="/placeholder.svg"
+              src="https://nocodeconsulting.blob.core.windows.net/nocodeconsulting/nocode-consulting-cover.png"
               style={{
                 aspectRatio: "400/400",
-                objectFit: "cover",
+                objectFit: "contain",
               }}
               width="400"
             />
@@ -112,12 +112,12 @@ const home2 = () => {
                 alt="Airtable"
                 className="max-h-12"
                 height="48"
-                src="/placeholder.svg"
+                src="https://nocodeconsulting.blob.core.windows.net/nocodeconsulting/airtable logo.svg"
                 style={{
                   aspectRatio: "48/48",
-                  objectFit: "cover",
+                  objectFit: "contain",
                 }}
-                width="48"
+                width="96"
               />
             </div>
             <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
@@ -125,12 +125,12 @@ const home2 = () => {
                 alt="Zapier"
                 className="max-h-12"
                 height="48"
-                src="/placeholder.svg"
+                src="https://nocodeconsulting.blob.core.windows.net/nocodeconsulting/zapier logo.svg"
                 style={{
                   aspectRatio: "48/48",
-                  objectFit: "cover",
+                  objectFit: "contain",
                 }}
-                width="48"
+                width="96"
               />
             </div>
             <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
@@ -138,12 +138,12 @@ const home2 = () => {
                 alt="Softr"
                 className="max-h-12"
                 height="48"
-                src="/placeholder.svg"
+                src="https://nocodeconsulting.blob.core.windows.net/nocodeconsulting/softr logo.svg"
                 style={{
                   aspectRatio: "48/48",
-                  objectFit: "cover",
+                  objectFit: "contain",
                 }}
-                width="48"
+                width="96"
               />
             </div>
             <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
@@ -151,12 +151,12 @@ const home2 = () => {
                 alt="Stacker"
                 className="max-h-12"
                 height="48"
-                src="/placeholder.svg"
+                src="https://nocodeconsulting.blob.core.windows.net/nocodeconsulting/stacker logo.svg"
                 style={{
                   aspectRatio: "48/48",
-                  objectFit: "cover",
+                  objectFit: "contain",
                 }}
-                width="48"
+                width="96"
               />
             </div>
             <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
@@ -164,12 +164,12 @@ const home2 = () => {
                 alt="Noloco"
                 className="max-h-12"
                 height="48"
-                src="/placeholder.svg"
+                src="https://nocodeconsulting.blob.core.windows.net/nocodeconsulting/noloco logo.svg"
                 style={{
                   aspectRatio: "48/48",
-                  objectFit: "cover",
+                  objectFit: "contain",
                 }}
-                width="48"
+                width="96"
               />
             </div>
             <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
@@ -177,12 +177,12 @@ const home2 = () => {
                 alt="FlutterFlow"
                 className="max-h-12"
                 height="48"
-                src="/placeholder.svg"
+                src="https://nocodeconsulting.blob.core.windows.net/nocodeconsulting/flutterflow logo.png"
                 style={{
                   aspectRatio: "48/48",
-                  objectFit: "cover",
+                  objectFit: "contain",
                 }}
-                width="48"
+                width="96"
               />
             </div>
           </div>
@@ -191,7 +191,7 @@ const home2 = () => {
           <Card className="bg-white">
             <CardHeader>
               <Avatar>
-                <AvatarImage alt="Connor Gustafson" src="/placeholder.svg?height=48&width=48" />
+                <AvatarImage alt="Connor Gustafson" src="https://nocodeconsulting.blob.core.windows.net/nocodeconsulting/connor%20gustafson.png?height=48&width=48" />
               </Avatar>
               <div className="ml-4">
                 <CardTitle>Connor Gustafson</CardTitle>
@@ -308,4 +308,4 @@ const home2 = () => {
   )
 }
 
-export default home2;
+export default Home2;
