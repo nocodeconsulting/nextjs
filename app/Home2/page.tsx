@@ -5,7 +5,7 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter }
 import { Avatar, AvatarImage } from "@/components/ui/avatar";
 import { MoonIcon, FacebookIcon, TwitterIcon, InstagramIcon, YoutubeIcon, LinkedinIcon } from "lucide-react";
 
-const Home2 = () => {
+const home2 = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-white">
       <nav className="w-full px-4 sm:px-6 lg:px-8">
@@ -34,7 +34,7 @@ const Home2 = () => {
               </a>
               <a
                 className="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
-                href="#"
+                href="/templates"
               >
                 Templates
               </a>
@@ -61,13 +61,13 @@ const Home2 = () => {
             </button>
             <a
               className="ml-5 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-gray-200 border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700 dark:border-gray-800"
-              href="#"
+              href="https://calendly.com/nocodeconsulting/private-consulting-hour-main?month=2024-06"
             >
               Schedule 1-Hour
             </a>
             <a
               className="ml-5 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-gray-200 border-transparent rounded-md shadow-sm text-base font-medium text-indigo-600 bg-white hover:bg-gray-50 dark:border-gray-800"
-              href="#"
+              href="https://www.nocodeconsulting.com/dashboard"
             >
               Login
             </a>
@@ -84,9 +84,13 @@ const Home2 = () => {
               We help companies build apps and automate work with no-code software.
             </p>
             <div className="mt-8 flex space-x-4">
-              <Button className="bg-indigo-600 hover:bg-indigo-700 text-white">Get Started</Button>
-              <Button className="bg-gray-100 hover:bg-gray-200 text-gray-700">Schedule 1-Hour</Button>
-            </div>
+      <a href="https://www.nocodeconsulting.com/dashboard">
+        <Button className="bg-indigo-600 hover:bg-indigo-700 text-white">Get Started</Button>
+      </a>
+      <a href="https://calendly.com/nocodeconsulting/private-consulting-hour-main">
+        <Button className="bg-gray-100 hover:bg-gray-200 text-gray-700">Schedule 1-Hour</Button>
+      </a>
+    </div>
           </div>
           <div className="lg:w-1/2">
             <img
@@ -205,32 +209,133 @@ const Home2 = () => {
               </p>
             </CardContent>
             <CardFooter>
-              <Button className="bg-indigo-600 hover:bg-indigo-700 text-white">Get Started</Button>
+              <Button className="bg-indigo-600 hover:bg-indigo-700 text-white">Schedule 1-Hour</Button>
             </CardFooter>
           </Card>
         </section>
         <section className="mt-12">
           <h3 className="text-lg font-medium leading-6 text-gray-900">Trusted by top-tier organizations</h3>
           <div className="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-4 lg:mt-8 lg:grid-cols-8">
-            <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+            <div className="col-span- flex justify-center py-8 px-8 bg-gray-50">
               <img
                 alt="Organization"
                 className="max-h-12"
-                height="48"
-                src="/placeholder.svg"
+                height="96"
+                src="https://nocodeconsulting.blob.core.windows.net/nextjs/stanford.png"
                 style={{
                   aspectRatio: "48/48",
-                  objectFit: "cover",
+                  objectFit: "contain",
                 }}
-                width="48"
+                width="96"
               />
             </div>
+
+            <div className="col-span- flex justify-center py-8 px-8 bg-gray-50">
+              <img
+                alt="Organization"
+                className="max-h-12"
+                height="96"
+                src="https://nocodeconsulting.blob.core.windows.net/nextjs/villanova.png"
+                style={{
+                  aspectRatio: "48/48",
+                  objectFit: "contain",
+                }}
+                width="96"
+              />
+            </div>
+
+            <div className="col-span- flex justify-center py-8 px-8 bg-gray-50">
+              <img
+                alt="Organization"
+                className="max-h-12"
+                height="96"
+                src="https://nocodeconsulting.blob.core.windows.net/nextjs/indexVentures.svg"
+                style={{
+                  aspectRatio: "48/48",
+                  objectFit: "contain",
+                }}
+                width="96"
+              />
+            </div>
+
+            <div className="col-span- flex justify-center py-8 px-8 bg-gray-50">
+              <img
+                alt="Organization"
+                className="max-h-12"
+                height="96"
+                src="https://nocodeconsulting.blob.core.windows.net/nextjs/kohrgolf.png"
+                style={{
+                  aspectRatio: "48/48",
+                  objectFit: "contain",
+                }}
+                width="96"
+              />
+            </div>
+
+            <div className="col-span- flex justify-center py-8 px-8 bg-gray-50">
+              <img
+                alt="Organization"
+                className="max-h-12"
+                height="96"
+                src="https://nocodeconsulting.blob.core.windows.net/nextjs/securityPal.svg"
+                style={{
+                  aspectRatio: "48/48",
+                  objectFit: "contain",
+                }}
+                width="96"
+              />
+            </div>
+
+            <div className="col-span- flex justify-center py-8 px-8 bg-gray-50">
+              <img
+                alt="Organization"
+                className="max-h-12"
+                height="96"
+                src="https://nocodeconsulting.blob.core.windows.net/nextjs/cleerTax.png"
+                style={{
+                  aspectRatio: "48/48",
+                  objectFit: "contain",
+                }}
+                width="96"
+              />
+            </div>
+
+            <div className="col-span- flex justify-center py-8 px-8 bg-gray-50">
+              <img
+                alt="Organization"
+                className="max-h-12"
+                height="96"
+                src="https://nocodeconsulting.blob.core.windows.net/nextjs/compass.svg"
+                style={{
+                  aspectRatio: "48/48",
+                  objectFit: "contain",
+                }}
+                width="96"
+              />
+            </div>
+
+            <div className="col-span- flex justify-center py-8 px-8 bg-gray-50">
+              <img
+                alt="Organization"
+                className="max-h-12"
+                height="96"
+                src="https://nocodeconsulting.blob.core.windows.net/nextjs/meowwolf.svg"
+                style={{
+                  aspectRatio: "48/48",
+                  objectFit: "contain",
+                }}
+                width="96"
+              />
+            </div>
+
+
+
           </div>
         </section>
         <section className="mt-12 bg-white py-8 px-6 rounded-lg">
           <h3 className="text-lg font-medium leading-6 text-gray-900">Expert Development Services</h3>
           <p className="mt-2 text-gray-500">Discover how companies use no-code software for speed and scale.</p>
-          <Button className="mt-4 bg-indigo-600 hover:bg-indigo-700 text-white">Schedule 1-Hour</Button>
+          <Button className="mt-4 bg-indigo-600 hover:bg-indigo-700 text-white">Get Started</Button>
         </section>
         <footer className="mt-12 py-8">
           <div className="flex justify-between">
@@ -308,4 +413,4 @@ const Home2 = () => {
   )
 }
 
-export default Home2;
+export default home2;
