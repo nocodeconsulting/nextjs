@@ -83,8 +83,8 @@ export default function learn() {
             <img src="/placeholder.svg" alt="Video Thumbnail" width={350} height={200} className="object-cover" />
           </Link>
           <div>
-            <h3 className="font-semibold text-lg line-clamp-2">What's New in FlutterFlow | May 2024</h3>
-            <p className="text-gray-500 line-clamp-2 dark:text-gray-400">What's New in FlutterFlow | May 2024</p>
+            <h3 className="font-semibold text-lg line-clamp-2">What&apos;s New in FlutterFlow | May 2024</h3>
+            <p className="text-gray-500 line-clamp-2 dark:text-gray-400">What&apos;s New in FlutterFlow | May 2024</p>
           </div>
         </div>
         <div className="flex flex-col gap-2">

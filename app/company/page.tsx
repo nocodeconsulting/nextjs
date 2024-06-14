@@ -74,7 +74,7 @@ export default function company() {
             </div>
             <div className="mt-16">
               <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
-                Here's what to expect when working with our development team:
+                Here&apos;s what to expect when working with our development team:
               </h2>
               <div className="bg-gray-100 dark:bg-gray-800 rounded-lg p-6 mb-8">
                 <div className="flex items-center mb-4">
@@ -82,7 +82,7 @@ export default function company() {
                   <h3 className="text-xl font-bold text-gray-900 dark:text-white">Submit Application</h3>
                 </div>
                 <p className="text-gray-600 dark:text-gray-300 mb-4">
-                  Please give us some information about your project, so that we can ensure a good fit. We'll provide a
+                  Please give us some information about your project, so that we can ensure a good fit. We&apos;ll provide a
                   candid evaluation of possible outcomes.
                 </p>
                 <p className="text-gray-600 dark:text-gray-300">Less than 5 minutes to complete</p>
@@ -94,7 +94,7 @@ export default function company() {
                   <h3 className="text-xl font-bold text-gray-900 dark:text-white">Introductory Call</h3>
                 </div>
                 <p className="text-gray-600 dark:text-gray-300 mb-4">
-                  After reviewing your application, we'll schedule a free introductory call to clarify project details,
+                  After reviewing your application, we&apos;ll schedule a free introductory call to clarify project details,
                   address questions, provide a cost estimate, and help you decide on next steps.
                 </p>
                 <p className="text-gray-600 dark:text-gray-300">30 minute video call</p>
@@ -156,7 +156,7 @@ export default function company() {
               <div className="bg-gray-100 dark:bg-gray-800 rounded-lg p-6">
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Softr</h3>
                 <p className="text-gray-600 dark:text-gray-300 mb-4">
-                  Softr let's you build internal tools and client partner portals from your data, without code.
+                  Softr let&apos;s you build internal tools and client partner portals from your data, without code.
                 </p>
                 <a href="#" className="text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-500">
                   Expert Certification &rarr;

@@ -37,8 +37,8 @@ export default function reviewst() {
               <StarIcon className="text-yellow-500 h-5 w-5 mr-1" />
             </div>
             <p className="text-gray-700 mb-4">
-              Connor's work with NoCode platforms like Airtable, Stacker, and Softr has been a game-changer for my
-              business. He's ...
+              Connor&apos;s work with NoCode platforms like Airtable, Stacker, and Softr has been a game-changer for my
+              business. He&apos;s ...
             </p>
             <div className="flex items-center">
               <div className="bg-gray-100 rounded-full px-4 py-1 text-gray-600 text-sm font-semibold mr-4">Coaching</div>
@@ -60,7 +60,7 @@ export default function reviewst() {
               <StarIcon className="text-yellow-500 h-5 w-5 mr-1" />
             </div>
             <p className="text-gray-700 mb-4">
-              Connor is incredibly knowledgeable about Airtable and all of the complimentary products that enhance it's
+              Connor is incredibly knowledgeable about Airtable and all of the complimentary products that enhance it&apos;s
               capabilitie...
             </p>
             <div className="flex items-center">
