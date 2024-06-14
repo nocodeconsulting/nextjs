@@ -7,7 +7,7 @@ import { Avatar, AvatarImage } from "@/components/ui/avatar";
 import { MoonIcon, FacebookIcon, TwitterIcon, InstagramIcon, YoutubeIcon, LinkedinIcon } from "lucide-react";
 import Link from "next/link";
 
-const home3 = () => {
+const backup = () => {
   // Initialize theme state with default 'light'
   const [theme, setTheme] = useState('light');
 
@@ -204,77 +204,77 @@ const home3 = () => {
   </div>
 </section>
 
-<footer className="bg-custom p-2 md:p-4 w-full">
-  <div className="container max-w-7xl grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-2 text-sm text-custom">
+        <footer className="bg-gray-100 dark:bg-gray-900 p-2 md:p-4 w-full">
+  <div className="container max-w-7xl grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-2 text-sm text-gray-900 dark:text-gray-200">
     <div className="grid gap-2">
-      <h3 className="font-semibold">Company</h3>
-      <Link href="#" prefetch={false} className="hover:text-gray-700 dark:hover:text-gray-300">
+      <h3 className="font-semibold text-gray-900 dark:text-white">Company</h3>
+      <Link href="#" prefetch={false} className="text-gray-900 hover:text-gray-700 dark:text-gray-200 dark:hover:text-white">
         About
       </Link>
-      <Link href="#" prefetch={false} className="hover:text-gray-700 dark:hover:text-gray-300">
+      <Link href="#" prefetch={false} className="text-gray-900 hover:text-gray-700 dark:text-gray-200 dark:hover:text-white">
         Careers
       </Link>
-      <Link href="#" prefetch={false} className="hover:text-gray-700 dark:hover:text-gray-300">
+      <Link href="#" prefetch={false} className="text-gray-900 hover:text-gray-700 dark:text-gray-200 dark:hover:text-white">
         Pricing
       </Link>
-      <Link href="#" prefetch={false} className="hover:text-gray-700 dark:hover:text-gray-300">
+      <Link href="#" prefetch={false} className="text-gray-900 hover:text-gray-700 dark:text-gray-200 dark:hover:text-white">
         Reviews
       </Link>
     </div>
     <div className="grid gap-2">
-      <h3 className="font-semibold">Services</h3>
-      <Link href="#" prefetch={false} className="hover:text-gray-700 dark:hover:text-gray-300">
+      <h3 className="font-semibold text-gray-900 dark:text-white">Services</h3>
+      <Link href="#" prefetch={false} className="text-gray-900 hover:text-gray-700 dark:text-gray-200 dark:hover:text-white">
         Expert Development
       </Link>
-      <Link href="#" prefetch={false} className="hover:text-gray-700 dark:hover:text-gray-300">
+      <Link href="#" prefetch={false} className="text-gray-900 hover:text-gray-700 dark:text-gray-200 dark:hover:text-white">
         Schedule 1-Hour
       </Link>
-      <Link href="#" prefetch={false} className="hover:text-gray-700 dark:hover:text-gray-300">
+      <Link href="#" prefetch={false} className="text-gray-900 hover:text-gray-700 dark:text-gray-200 dark:hover:text-white">
         Templates
       </Link>
-      <Link href="#" prefetch={false} className="hover:text-gray-700 dark:hover:text-gray-300">
+      <Link href="#" prefetch={false} className="text-gray-900 hover:text-gray-700 dark:text-gray-200 dark:hover:text-white">
         Privacy
       </Link>
     </div>
     <div className="grid gap-2">
-      <h3 className="font-semibold">Resources</h3>
-      <Link href="#" prefetch={false} className="hover:text-gray-700 dark:hover:text-gray-300">
+      <h3 className="font-semibold text-gray-900 dark:text-white">Resources</h3>
+      <Link href="#" prefetch={false} className="text-gray-900 hover:text-gray-700 dark:text-gray-200 dark:hover:text-white">
         Blog
       </Link>
-      <Link href="#" prefetch={false} className="hover:text-gray-700 dark:hover:text-gray-300">
+      <Link href="#" prefetch={false} className="text-gray-900 hover:text-gray-700 dark:text-gray-200 dark:hover:text-white">
         Community
       </Link>
-      <Link href="#" prefetch={false} className="hover:text-gray-700 dark:hover:text-gray-300">
+      <Link href="#" prefetch={false} className="text-gray-900 hover:text-gray-700 dark:text-gray-200 dark:hover:text-white">
         Support
       </Link>
-      <Link href="#" prefetch={false} className="hover:text-gray-700 dark:hover:text-gray-300">
+      <Link href="#" prefetch={false} className="text-gray-900 hover:text-gray-700 dark:text-gray-200 dark:hover:text-white">
         FAQs
       </Link>
     </div>
     <div className="grid gap-2">
-      <h3 className="font-semibold">Legal</h3>
-      <Link href="#" prefetch={false} className="hover:text-gray-700 dark:hover:text-gray-300">
+      <h3 className="font-semibold text-gray-900 dark:text-white">Legal</h3>
+      <Link href="#" prefetch={false} className="text-gray-900 hover:text-gray-700 dark:text-gray-200 dark:hover:text-white">
         Privacy Policy
       </Link>
-      <Link href="#" prefetch={false} className="hover:text-gray-700 dark:hover:text-gray-300">
+      <Link href="#" prefetch={false} className="text-gray-900 hover:text-gray-700 dark:text-gray-200 dark:hover:text-white">
         Terms of Service
       </Link>
-      <Link href="#" prefetch={false} className="hover:text-gray-700 dark:hover:text-gray-300">
+      <Link href="#" prefetch={false} className="text-gray-900 hover:text-gray-700 dark:text-gray-200 dark:hover:text-white">
         Cookie Policy
       </Link>
-      <Link href="#" prefetch={false} className="hover:text-gray-700 dark:hover:text-gray-300">
+      <Link href="#" prefetch={false} className="text-gray-900 hover:text-gray-700 dark:text-gray-200 dark:hover:text-white">
         Compliance
       </Link>
     </div>
     <div className="grid gap-2">
-      <h3 className="font-semibold">Contact</h3>
-      <Link href="#" prefetch={false} className="hover:text-gray-700 dark:hover:text-gray-300">
+      <h3 className="font-semibold text-gray-900 dark:text-white">Contact</h3>
+      <Link href="#" prefetch={false} className="text-gray-900 hover:text-gray-700 dark:text-gray-200 dark:hover:text-white">
         Support
       </Link>
-      <Link href="#" prefetch={false} className="hover:text-gray-700 dark:hover:text-gray-300">
+      <Link href="#" prefetch={false} className="text-gray-900 hover:text-gray-700 dark:text-gray-200 dark:hover:text-white">
         Sales
       </Link>
-      <Link href="#" prefetch={false} className="hover:text-gray-700 dark:hover:text-gray-300">
+      <Link href="#" prefetch={false} className="text-gray-900 hover:text-gray-700 dark:text-gray-200 dark:hover:text-white">
         Press
       </Link>
       <Link href="#" prefetch={false} className="hover:text-gray-700 dark:hover:text-gray-300">
@@ -283,28 +283,27 @@ const home3 = () => {
     </div>
   </div>
   <div className="mt-8 flex justify-center space-x-2 md:order-last">
-    <Link href="#" className="hover:text-gray-500 dark:hover:text-white" prefetch={false}>
+    <Link href="#" className="text-gray-400 hover:text-gray-500 dark:text-gray-300 dark:hover:text-white" prefetch={false}>
       <FacebookIcon className="h-6 w-6" />
     </Link>
-    <Link href="#" className="hover:text-gray-500 dark:hover:text-white" prefetch={false}>
+    <Link href="#" className="text-gray-400 hover:text-gray-500 dark:text-gray-300 dark:hover:text-white" prefetch={false}>
       <TwitterIcon className="h-6 w-6" />
     </Link>
-    <Link href="#" className="hover:text-gray-500 dark:hover:text-white" prefetch={false}>
+    <Link href="#" className="text-gray-400 hover:text-gray-500 dark:text-gray-300 dark:hover:text-white" prefetch={false}>
       <InstagramIcon className="h-6 w-6" />
     </Link>
-    <Link href="#" className="hover:text-gray-500 dark:hover:text-white" prefetch={false}>
+    <Link href="#" className="text-gray-400 hover:text-gray-500 dark:text-gray-300 dark:hover:text-white" prefetch={false}>
       <YoutubeIcon className="h-6 w-6" />
     </Link>
-    <Link href="#" className="hover:text-gray-500 dark:hover:text-white" prefetch={false}>
+    <Link href="#" className="text-gray-400 hover:text-gray-500 dark:text-gray-300 dark:hover:text-white" prefetch={false}>
       <LinkedinIcon className="h-6 w-6" />
     </Link>
   </div>
 </footer>
-
 
       </main>
     </div>
   )
 }
 
-export default home3;
+export default backup;
