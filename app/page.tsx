@@ -7,7 +7,7 @@ import { Avatar, AvatarImage } from "@/components/ui/avatar";
 import { MoonIcon, FacebookIcon, TwitterIcon, InstagramIcon, YoutubeIcon, LinkedinIcon } from "lucide-react";
 import Link from "next/link";
 
-const home3 = () => {
+const Home3 = () => {
   // Initialize theme state with default 'light'
   const [theme, setTheme] = useState('light');
 
@@ -307,4 +307,4 @@ const home3 = () => {
   )
 }
 
-export default home3;
+export default Home3;
