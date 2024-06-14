@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from "@/components/ui/card";
 import { Avatar, AvatarImage } from "@/components/ui/avatar";
 import { MoonIcon, FacebookIcon, TwitterIcon, InstagramIcon, YoutubeIcon, LinkedinIcon } from "lucide-react";
+import Link from "next/link";
 
 const home2 = () => {
   return (
@@ -191,26 +192,30 @@ const home2 = () => {
             </div>
           </div>
         </section>
-        <section className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-4">
-          <Card className="bg-white">
-            <CardHeader>
-              <Avatar>
-                <AvatarImage alt="Connor Gustafson" src="https://nocodeconsulting.blob.core.windows.net/nocodeconsulting/connor%20gustafson.png?height=48&width=48" />
+        <section className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-4 lg:grid-cols-1">
+          <Card className="bg-white w-full md:w-full lg:w-full relative">
+            <CardHeader className="flex flex-col md:flex-row items-start md:items-center">
+              <Avatar className="mb-2 md:mb-0">
+                <img src="https://nocodeconsulting.blob.core.windows.net/nocodeconsulting/connor%20gustafson.png" alt="Connor Gustafson" />
               </Avatar>
-              <div className="ml-4">
+              <div className="ml-0 md:ml-2 flex flex-col">
                 <CardTitle>Connor Gustafson</CardTitle>
-                <CardDescription>CEO</CardDescription>
+                <CardDescription className="mt-0.5">CEO</CardDescription>
               </div>
             </CardHeader>
-            <CardContent>
-              <p className="text-gray-500">
-                Software designed for speed and scale. Build user-interfaces, SaaS apps, internal tools and automation
-                better and faster with no-code.
+            <CardContent className="mt-1">
+              <p>
+                <strong>Software designed for speed and scale.</strong>
+                <br />
+                Build user-interfaces, SaaS apps, internal tools and automation better and faster with no-code.
               </p>
             </CardContent>
-            <CardFooter>
+            <CardFooter className="mt-1">
               <Button className="bg-indigo-600 hover:bg-indigo-700 text-white">Schedule 1-Hour</Button>
             </CardFooter>
+            <div className="hidden md:block absolute top-0 right-0 bg-[#ebf5ff] px-2 py-1 text-xs font-semibold text-gray-600 rounded-bl">
+              NoCode Consulting
+            </div>
           </Card>
         </section>
         <section className="mt-12">
@@ -335,77 +340,104 @@ const home2 = () => {
         <section className="mt-12 bg-white py-8 px-6 rounded-lg">
           <h3 className="text-lg font-medium leading-6 text-gray-900">Expert Development Services</h3>
           <p className="mt-2 text-gray-500">Discover how companies use no-code software for speed and scale.</p>
-          <Button className="mt-4 bg-indigo-600 hover:bg-indigo-700 text-white">Get Started</Button>
+          <div className="mt-4 mb-8">
+            <Button className="bg-indigo-600 hover:bg-indigo-700 text-white">Schedule 1-Hour</Button>
+          </div>
         </section>
-        <footer className="mt-12 py-8">
-          <div className="flex justify-between">
-            <div>
-              <h2 className="text-xl font-semibold text-gray-900">nocodeconsulting.com</h2>
-              <p className="mt-2 text-gray-500">
-                Build enterprise software without writing code. We help companies build apps and automate work with
-                no-code software.
-              </p>
-              <div className="flex mt-4 space-x-6">
-                <FacebookIcon className="h-6 w-6 text-gray-400 hover:text-gray-500" />
-                <TwitterIcon className="h-6 w-6 text-gray-400 hover:text-gray-500" />
-                <InstagramIcon className="h-6 w-6 text-gray-400 hover:text-gray-500" />
-                <YoutubeIcon className="h-6 w-6 text-gray-400 hover:text-gray-500" />
-                <InstagramIcon className="h-6 w-6 text-gray-400 hover:text-gray-500" />
-                <LinkedinIcon className="h-6 w-6 text-gray-400 hover:text-gray-500" />
-              </div>
+        <footer className="bg-gray-100 p-2 md:p-4 w-full">
+          <div className="container max-w-7xl grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-2 text-sm">
+            <div className="grid gap-2">
+              <h3 className="font-semibold">Company</h3>
+              <Link href="#" prefetch={false}>
+                About
+              </Link>
+              <Link href="#" prefetch={false}>
+                Careers
+              </Link>
+              <Link href="#" prefetch={false}>
+                Pricing
+              </Link>
+              <Link href="#" prefetch={false}>
+                Reviews
+              </Link>
             </div>
-            <div className="grid grid-cols-2 gap-8">
-              <div>
-                <h3 className="text-sm font-semibold text-gray-400 uppercase tracking-wider">Company</h3>
-                <ul className="mt-4 space-y-4">
-                  <li>
-                    <a className="text-base text-gray-500 hover:text-gray-900" href="#">
-                      About
-                    </a>
-                  </li>
-                  <li>
-                    <a className="text-base text-gray-500 hover:text-gray-900" href="#">
-                      Careers
-                    </a>
-                  </li>
-                  <li>
-                    <a className="text-base text-gray-500 hover:text-gray-900" href="#">
-                      Pricing
-                    </a>
-                  </li>
-                  <li>
-                    <a className="text-base text-gray-500 hover:text-gray-900" href="#">
-                      Reviews
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div>
-                <h3 className="text-sm font-semibold text-gray-400 uppercase tracking-wider">Services</h3>
-                <ul className="mt-4 space-y-4">
-                  <li>
-                    <a className="text-base text-gray-500 hover:text-gray-900" href="#">
-                      Expert Development
-                    </a>
-                  </li>
-                  <li>
-                    <a className="text-base text-gray-500 hover:text-gray-900" href="#">
-                      Schedule 1-Hour
-                    </a>
-                  </li>
-                  <li>
-                    <a className="text-base text-gray-500 hover:text-gray-900" href="#">
-                      Templates
-                    </a>
-                  </li>
-                  <li>
-                    <a className="text-base text-gray-500 hover:text-gray-900" href="#">
-                      Privacy
-                    </a>
-                  </li>
-                </ul>
-              </div>
+            <div className="grid gap-2">
+              <h3 className="font-semibold">Services</h3>
+              <Link href="#" prefetch={false}>
+                Expert Development
+              </Link>
+              <Link href="#" prefetch={false}>
+                Schedule 1-Hour
+              </Link>
+              <Link href="#" prefetch={false}>
+                Templates
+              </Link>
+              <Link href="#" prefetch={false}>
+                Privacy
+              </Link>
             </div>
+            <div className="grid gap-2">
+              <h3 className="font-semibold">Resources</h3>
+              <Link href="#" prefetch={false}>
+                Blog
+              </Link>
+              <Link href="#" prefetch={false}>
+                Community
+              </Link>
+              <Link href="#" prefetch={false}>
+                Support
+              </Link>
+              <Link href="#" prefetch={false}>
+                FAQs
+              </Link>
+            </div>
+            <div className="grid gap-2">
+              <h3 className="font-semibold">Legal</h3>
+              <Link href="#" prefetch={false}>
+                Privacy Policy
+              </Link>
+              <Link href="#" prefetch={false}>
+                Terms of Service
+              </Link>
+              <Link href="#" prefetch={false}>
+                Cookie Policy
+              </Link>
+              <Link href="#" prefetch={false}>
+                Compliance
+              </Link>
+            </div>
+            <div className="grid gap-2">
+              <h3 className="font-semibold">Contact</h3>
+              <Link href="#" prefetch={false}>
+                Support
+              </Link>
+              <Link href="#" prefetch={false}>
+                Sales
+              </Link>
+              <Link href="#" prefetch={false}>
+                Press
+              </Link>
+              <Link href="#" prefetch={false}>
+                Partnerships
+              </Link>
+            </div>
+          </div>
+          <div className="mt-8 flex justify-center space-x-2 md:order-last">
+            <Link href="#" className="text-gray-400 hover:text-gray-500" prefetch={false}>
+              <FacebookIcon className="h-6 w-6" />
+            </Link>
+            <Link href="#" className="text-gray-400 hover:text-gray-500" prefetch={false}>
+              <TwitterIcon className="h-6 w-6" />
+            </Link>
+            <Link href="#" className="text-gray-400 hover:text-gray-500" prefetch={false}>
+              <InstagramIcon className="h-6 w-6" />
+            </Link>
+            <Link href="#" className="text-gray-400 hover:text-gray-500" prefetch={false}>
+              <YoutubeIcon className="h-6 w-6" />
+            </Link>
+            <Link href="#" className="text-gray-400 hover:text-gray-500" prefetch={false}>
+              <LinkedinIcon className="h-6 w-6" />
+            </Link>
           </div>
         </footer>
       </main>
