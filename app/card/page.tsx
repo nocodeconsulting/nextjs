@@ -1,10 +1,10 @@
-import Header from '../../components/Header';
-import ConnorGustafson from '../../components/ConnorGustafson';
-import Options from '../../components/Options';
+import Header from '@/components/Header';
+import ConnorGustafson from '@/components/ConnorGustafson';
+import Options from '@/components/Options';
 
 const Card = () => {
   return (
-    <div className="min-h-screen flex flex-col space-y-8">
+    <div className="min-h-screen flex flex-col">
       <Header />
       <div className="flex-grow flex items-center justify-center">
         <ConnorGustafson />
