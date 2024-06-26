@@ -1,6 +1,6 @@
-import Header from '@/components/Header';
-import ConnorGustafson from '@/components/ConnorGustafson';
-import Options from '@/components/Options';
+import Header from '../../components/Header';
+import ConnorGustafson from '../../components/ConnorGustafson';
+import Options from '../../components/Options';
 
 
 
